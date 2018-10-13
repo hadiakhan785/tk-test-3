@@ -1,0 +1,110 @@
+.navbar-brand{
+    display: flex;
+}
+
+.brand-img{
+    background-image: url('images/logo.png');
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-size: cover;
+    margin-right: 0.5em;
+}
+
+h5, p{
+    margin: 0;
+}
+
+.brand-name-slogan h5{
+    font-weight: 700;
+}
+
+.brand-name-slogan p{
+    font-size: 0.8em;
+    font-weight: 900; 
+}
+
+.card{
+    margin-top: 1em;
+    width: 100%;
+}
+
+.card-body{
+    display: flex;
+}
+
+.book-img{
+    height: 200px;
+    width: 150px;
+    min-width: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 0.5em;
+}
+
+.card-title{
+    margin-bottom: 4px;
+}
+
+.about-author{
+    font-size: 0.8em;
+    margin-bottom: 1em;    
+}
+
+.about-book{
+    font-size: 0.9em;
+    margin-bottom: 1em;    
+
+}
+
+.price{
+    font-weight: bold;
+}
+
+.price-and-cart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.alert{
+    text-align: center;
+}
+
+.total-amount{
+    font-weight: bold;
+}
+
+h4{
+    text-align: center;
+}
+
+input{
+    max-width: 3em;
+    text-align: center;
+}
+
+@media screen and (max-width: 450px){
+    .price-and-cart{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-title{
+        font-size: 0.8em;
+    }
+
+    .about-author{
+    font-size: 0.7em;
+    margin-bottom: 1em;    
+    }
+
+    .about-book{
+        font-size: 0.8em;
+        margin-bottom: 1em;
+    }
+
+
+}
+
+
+/* write your CSS here */
